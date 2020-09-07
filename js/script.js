@@ -39,7 +39,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     // Timer
 
-    const deadLine = "2020-09-07";
+    const deadLine = "2020-09-10";
 
     function getTimeReamaining(endTime) {
         const t = Date.parse(endTime) - Date.parse(new Date()),
